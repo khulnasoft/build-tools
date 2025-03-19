@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  build-tools:
+    image: khulnasoft/build-tools:${VERSION:-latest}
+    build:
+      context: .
